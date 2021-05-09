@@ -15,6 +15,8 @@ public class VariableDeclaration {
 		System.out.println(l);
 	    char c = 'a';
 	    System.out.println(c);
+      
+	   
 		   
 		
 	}

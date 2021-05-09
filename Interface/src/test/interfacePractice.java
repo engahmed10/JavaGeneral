@@ -3,6 +3,7 @@ package test;
 //implement like class but 
 import test.Tests;
 
+
 interface drinkWater {
  String water = "cold";
      void drinkWater();
@@ -17,9 +18,11 @@ public class interfacePractice implements drinkWater{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(water);
+		
+    System.out.println(water);
    	interfacePractice ins = new interfacePractice();
    	
+   
       ins.drinkWater();
       
       Tests  insTest= new Tests();
@@ -29,18 +32,16 @@ public class interfacePractice implements drinkWater{
 
 	}
  
+	
 
 	@Override
 	public void drinkWater() {
 		// TODO Auto-generated method 
 	   System.out.println("Drink your "+water + " water");
-	
 	}
-   
-	@Override
-	 public void eatFood() {
+	
+	
+	public void eatFood() {
 	     System.out.println("Afandy");
 	 };
-	
-
 }
