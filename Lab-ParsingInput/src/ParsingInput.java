@@ -19,7 +19,14 @@ public class ParsingInput {
 			System.out.println("Hello, "+name+"!");
 		
 
-		    
+			
+			System.out.println("How old are you?");
+			int age = in.nextInt();
+			System.out.println("Dang, "+age+" is old");
+			
+			
+			//parsing string with wrapper classes  example:
+			int example = Integer.parseInt("6");
 		}
 
 	}
