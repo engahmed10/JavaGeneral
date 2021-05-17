@@ -16,6 +16,8 @@ public class TryCatch {
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("in catch");
+		}finally {
+			System.out.println("In finally");
 		}
 	}
 	
